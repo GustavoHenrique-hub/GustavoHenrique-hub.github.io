@@ -1,0 +1,109 @@
+html {
+  min-height: 100vh;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Agbalumo', serif;
+  color: white;
+}
+
+#conteudo {
+  background: linear-gradient(45deg, rgb(4, 54, 74), rgb(23, 107, 135), rgb(100, 204, 197), rgb(218, 255, 251));
+  background-size: 300% 300%;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  display: table;
+  animation: colors 15s ease infinite;
+  text-align: center;
+}
+
+@keyframes colors {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+
+  }
+
+  100% {
+    background-position: 0% 50%;
+
+  }
+}
+
+#barra-menu {
+  text-align: center;
+}
+
+.menu {
+  height: 80px;
+}
+
+ul {
+  width: 100%;
+  list-style: none;
+}
+
+.navegar {
+  margin-top: 26px;
+  display: inline-block;
+}
+
+.navegar a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-size: 18px;
+  transition: 1s;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.navegar a:hover {
+  transition: 1s;
+  color: black;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+
+main {
+  margin-top: 50px;
+}
+
+.images {
+  width: 110px;
+  height: 125px;
+}
+
+.image-html {
+  width: 155px;
+  height: 140px;
+}
+
+.image-java {
+  width: 155px;
+  height: 140px;
+}
+
+.image-node {
+  width: 160px;
+  height: 155px;
+}
+
+#Eu {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+#Experiencia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
